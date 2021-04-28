@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+ }
+ 
+ body {
+     margin:0px;
+     padding:0px;
+ }
+ 
+ nav {
+     position:fixed ;
+     display:flex;
+     justify-content: space-around;
+     align-self: center;
+     top:0px;
+     left:0px;
+     width:100%;
+     background-color: white);
+     box-shadow: 20px  grey;
+     box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+ 
+ }
+ 
+ #main {
+     width:100%;
+     height:10vh;
+     position: relative;   
+ }
+ 
+ .logo img {
+     padding-top: 10px;
+     height: 70px;
+ }
+ 
+ ul {
+     list-style: none;
+ 
+ }
+ 
+ a {
+     text-decoration:none;
+     
+ }
+ 
+ .menu {
+     padding-top: 5px;
+     display: flex;
+ 
+ }
+ 
+ ul{
+     display:flex;
+ }
+ 
+ .menu li a {
+     height:40px;
+     padding: 10px 22px;
+     display: flex;
+     letter-spacing: 1px;
+ }
+ 
+ li a {
+     height:40px;
+     list-style: 43px;
+     margin:3px;
+     padding:0px 22px;
+     display: flex;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+ }
+ 
+ a {
+     text-decoration: none;
+     color: grey;
+ }
+ 
+ .hey {
+     color:#db0404;
+     font-weight: 500;
+     font-size: 0.9em;
+     border-bottom:2px solid #db0404;
+     height:fit-content;
+     padding-top:30px;
+ }
+ 
+ .image {
+     width:500px;
+     height:auto;
+ }
+ 
+ .image img {
+     width:100%;
+     object-fit: contain;
+ 
+ }
+ 
+ .content {
+     display:flex;
+     width:90%;
+     justify-content: space-around;
+     align-items: center;
+     position:absolute ;
+     top:60vh;
+     left:50%;
+     right: 50%;
+     transform: translate(-50%,-50%);
+ }
+ 
+ .main-text h1 {
+      font-size: 3.5em;
+      color: #5e1916;
+      margin: 0px 0px 10px 0px;
+      line-height:60px;
+ 
+ }
+ 
+ .main-text p{
+     color: grey;
+ }
+ .resume-btn {
+     width: 190px;
+     height:44px;
+     display:flex;
+     justify-content: center;
+     background-color:#db0404 ;
+     border-radius: 30px;
+     color:white;
+     padding:10px 15px;
+     
+ }
+ 
+ .resume-btn:hover {
+     background-color: #ff404c;
+     box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+ }
+ 
+ .menu li a:hover {
+     background-color: #ff404c;
+     color:white;
+ }
+ 
+ .hey a:hover {
+     color:#ff404c;
+ }
